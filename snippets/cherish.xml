@@ -29,6 +29,10 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
 
+  <remote  name="m"
+           fetch="https://github.com/monu70152"
+           revision="lineage-19.1" />
+
   <!-- Rootdir -->
   <project path="art" name="android_art" remote="cherish" />
   <project path="bionic" name="android_bionic" remote="cherish" />
@@ -75,7 +79,7 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="cherish" />
   <project path="hardware/cherish/interfaces" name="android_hardware_cherish_interfaces" remote="cherish" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cherish" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cherish" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="m" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom-caf_sm8250_audio" remote="cherish" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom-caf_sm8250_display" remote="cherish" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom-caf_sm8250_media" remote="cherish" />
